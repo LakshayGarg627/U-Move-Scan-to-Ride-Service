@@ -1,3 +1,45 @@
+// JS for hero section h1 
+var typed=new Typed(".hero-text",{
+  strings:["The smarter, faster, greener way to get around campus."],
+  typeSpeed:100,
+  backSpeed:100,
+  backDelay:1000,
+  loop:true
+
+
+});
+
+// JS for services section divs h3
+var typed=new Typed(".scooter",{
+  strings:["EV Scooter"],
+  typeSpeed:170,
+  backSpeed:100,
+  backDelay:1000,
+  loop:true
+
+
+});
+// JS for services section divs h3
+var typed=new Typed(".goods",{
+  strings:["Goods Delivery"],
+  typeSpeed:120,
+  backSpeed:100,
+  backDelay:1000,
+  loop:true
+
+
+});
+// JS for services section divs h3
+var typed=new Typed(".university",{
+  strings:["University Shuttle"],
+  typeSpeed:100,
+  backSpeed:100,
+  backDelay:1000,
+  loop:true
+
+
+});
+
 const mobile_nav = document.querySelector(".mobile-navbar-btn");
 const nav_header = document.querySelector(".header");
 var links=document.querySelectorAll(".header .navbar .navbar-list li")

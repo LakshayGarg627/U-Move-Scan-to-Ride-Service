@@ -217,7 +217,9 @@ Hero section
     }
 }
 .section-hero .hero-leftside {
+    margin-left: -2rem;
     width: 60%;
+    
     align-items: flex-start;
     display: flex;
     justify-content: flex-start;
@@ -228,10 +230,16 @@ Hero section
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
+.hero-leftside h1{
+    
+    height: 10rem;
+
+}
 .hero-rightside img{
     width: 600px;
     height:600px;
 }
+
 @keyframes fadein {
     0%{
         opacity: 0;
@@ -265,6 +273,7 @@ Hero section
 }
 
 .section-about .right-side{
+    margin-left: 4rem;
     width: inherit;
     height: inherit;
     display: flex;
@@ -382,6 +391,8 @@ Hero section
     flex-direction: column;
 }
 
+
+
 .text-center {
     text-align: center;
     padding-top: 30px;
@@ -445,6 +456,7 @@ Hero section
     background-color: black;
 
 }
+
 
 /* ===========================================
 Responsive Codes 
